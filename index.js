@@ -49,7 +49,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contributions',
         message: 'How can others contribute to this project?',
 
     },
@@ -102,7 +102,7 @@ const writeToFile = data => {
             // if everything went well, resolve the Promise and send the successful data to the .then() method
             resolve({
                 ok: true,
-                message: console.log('README.md Generated.')
+                message: console.log('SAMPLE-README.md Generated.')
             });
 
         })

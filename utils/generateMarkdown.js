@@ -71,6 +71,10 @@ function generateMarkdown(data) {
   GitHub: https://github.com/${data.github}  
   Email: ${data.email}
 
+
+  ## Contributions
+  ${data.contributions}
+
   ## Video
   
   video:  The demonstration video link.
